@@ -1,0 +1,20 @@
+{
+  "name": "Bol.com cadeaukaarten totaal checker",
+  "version": "1.0",
+  "description": "Bekijk de totale restwaarde van je bol.com cadeaukaarten.\nIcons made by monkik from www.flaticon.com",
+  "icons": {
+    "32": "icon32.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "bol-restwaarde-check.js"
+      ],
+      "matches": [
+        "https://www.bol.com/nl/account/betaalmethoden.html"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
