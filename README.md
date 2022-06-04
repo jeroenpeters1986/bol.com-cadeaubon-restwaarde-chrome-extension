@@ -23,5 +23,14 @@ ene pagina.
 Om bovenstaande bewering te checken kun je `bol-restwaarde-check.js`
 inzien. Het is in Javascript geschreven.
 
+## Changelog 
+
+### v1.1
+Betere URL matching zodat de plugin ook werkt als de 
+cadeaubonnen pagina op een andere URL wordt opgeroepen.
+
+### v1.0
+Initiele release
+
 ### Credits iconen
 Icons made by [monkik](https://www.flaticon.com/authors/monkik "monkik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")

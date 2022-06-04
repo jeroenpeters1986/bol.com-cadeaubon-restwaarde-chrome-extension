@@ -18,7 +18,7 @@ function berekenRestwaarde()
         '                    <span data-test="giftcard-type">Totale restwaarde</span>\n' +
         '                </td>\n' +
         '                <td data-test="giftcard-mobile-header-remaining-value" data-th="Restwaarde" colspan="3">\n' +
-        '                    <span data-test="giftcard-remaining-value"><strong>&euro; ' + total.toString().replace('.', ',') + '</span>\n' +
+        '                    <span data-test="giftcard-remaining-value"><strong>&euro; ' + total.toFixed(2).toString().replace('.', ',') + '</span>\n' +
         '                </td>\n';
 
     let restwaarde_rij_element = document.createElement("tr");
@@ -28,4 +28,4 @@ function berekenRestwaarde()
     document.getElementById('giftcard-table-rows').insertAdjacentHTML('beforeend', html_restwaarde);
 }
 
-window.setTimeout(berekenRestwaarde, 1000);
+window.setTimeout(berekenRestwaarde, 500);
